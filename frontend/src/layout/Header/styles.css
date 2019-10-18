@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    background-color: #FFF;
+    max-width: 1280px;
+    min-width: 1180px;
+    }
+.header> .logo{
+
+    text-transform: lowercase;
+    font-size: 24px;
+    font-weight: 500;
+    color: #4300D2;
+    
+}
+.header .logo  > strong{
+    color: #4300D2;
+    font-size: 40px;
+    text-transform: lowercase;
+}
+.header .suport-tab{
+    background: #EEE;
+    border-radius: 0 0 0 24px;
+    padding: 15px;
+}
+.header .suport-tab > span{
+    padding: 15px 15px 15px 15px;
+    color: #444;
+}
+.header .suport-tab >span :first-child{
+  padding-left: 3px;
+  padding-right: 25px;
+}

@@ -1,0 +1,32 @@
+.menu-icon-container {
+    max-width: 1280px;
+    min-width: 1180px;
+}
+ul{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    list-style-type: none
+}
+.item{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    padding: 10px;
+}
+.item:hover{
+    transition: 0.6s;
+    cursor: pointer;
+    color: #4300D2;
+}
+.item .icon{
+    justify-self: center;
+}
+.item .header-icon-item:hover{
+    justify-self: center;
+    color: #4300D2;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "banzeiros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./src/server.js",
+    "migrate:dev":"knex migrate:latest --knexfile src/knexfile.js ",
+    "migrate:staging":"knex migrate:latest --knexfile src/knexfile.js --env staging",
+    "migrate:prod":"knex migrate:latest --knexfile src/knexfile.js --env production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^1.19.3",
+    "prettier": "1.18.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "knex": "^0.19.5",
+    "pg": "^7.12.1",
+    "pluralize": "^8.0.0",
+    "postgresql": "0.0.1",
+    "sqlite3": "^4.1.0"
+  }
+}
