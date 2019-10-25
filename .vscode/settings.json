@@ -1,0 +1,18 @@
+{
+    "workbench.iconTheme": "vscode-great-icons",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 0,
+    "editor.formatOnSave": false,
+    "prettier.tabWidth": 4,
+    "prettier.quoteProps": "preserve",
+    "tsimporter.doubleQuotes": true,
+    "eslint.autoFixOnSave": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.maxMemoryForLargeFilesMB": 8000,
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Quiet Light"
+  }
