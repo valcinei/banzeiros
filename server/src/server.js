@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 // parse application/json
 app.use(bodyParser.json());
-
+app.set("json spaces", 20);
 app.use(function(req, res, next) {
   res.setHeader("Content-Type", "application/json");
   next();
